@@ -16,6 +16,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Actual Result**: It did provide links to vegetarian lasagna recipes, but it thought the prompt was asking for smores recipes. 
 - **Status**: Fail
 
+![Response for TQ001](https://github.com/trodman201/llm-chatbot/blob/testing/TQ001_Response.png) 
+
 ---
 
 ### Test Case TQ002: Simple Pasta Recipe for Beginners
@@ -27,6 +29,7 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Actual Result**: Chatbot returned links to pasta recipes for beginners
 - **Status**: Pass
 
+![Response for TQ002](https://github.com/trodman201/llm-chatbot/blob/testing/TQ002_Response.png) 
 ---
 
 ### Test Case TQ003: Homemade Pizza Dough
@@ -37,6 +40,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Expected Result**: A recipe for pizza dough with the link (e.g., “Homemade Pizza Dough Recipe” with the link).
 - **Actual Result**: Chatbot returned recommendations and links to making homemade pizza dough
 - **Status**: Pass
+
+![Response for TQ003](https://github.com/trodman201/llm-chatbot/blob/testing/TQ003_Response.png) 
 
 ---
 
@@ -49,6 +54,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Actual Result**: Chatbot returned recommendations and links to cooking quick weeknight dinners
 - **Status**: Pass
 
+![Response for TQ004](https://github.com/trodman201/llm-chatbot/blob/testing/TQ004_Response.png) 
+
 ---
 
 ### Test Case TQ005: Chicken Curry with Rice
@@ -60,6 +67,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Actual Result**: Chatbot retunred recommendations and links to cooking chicken curry with rice
 - **Status**: Pass
 
+![Response for TQ005](https://github.com/trodman201/llm-chatbot/blob/testing/TQ005_Response.png) 
+
 --- 
 ### Test Case TQ006: Cooking with Chicken Thighs
 **Test Scenario**: Retrieve ideas for using chicken thighs as an ingredient. 
@@ -70,6 +79,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Actual Result**: Chatbot returned recommendations and links to cooking with chicken thighs
 - **Status**: Pass
 
+![Response for TQ006](https://github.com/trodman201/llm-chatbot/blob/testing/TQ006_Response.png) 
+
 ---
 ### Test Case TQ007: Cooking with Tomatoes and Basil
 **Test Scenario**: Retrieve recipes that use tomatoes and basil. 
@@ -79,6 +90,7 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Actual Result**: The chatbot returned both recommendations and links to cooking with tomatoes/basil
 - **Status**: Pass
 
+![Response for TQ007](https://github.com/trodman201/llm-chatbot/blob/testing/TQ007_Response.png) 
 ---
 ### Test Case TQ008: Cooking with Mushrooms
 **Test Scenario**: Retrieve recipes that use mushrooms. 
@@ -87,6 +99,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Expected Result**: A list of mushroom-based recipes with links (e.g., “Mushroom Risotto” with the link).
 - **Actual Result**: The chatbot returned both recommendations and links to cooking with mushrooms
 - **Status**: Pass
+
+![Response for TQ008](https://github.com/trodman201/llm-chatbot/blob/testing/TQ008_Response.png) 
 
 ---
 ### Test Case TQ009: Cooking with Sweet Potatoes
@@ -97,6 +111,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Actual Result**: The chatbot returned both recommendations and links for cooking with sweet potatoes
 - **Status**: Pass
 
+![Response for TQ009](https://github.com/trodman201/llm-chatbot/blob/testing/TQ009_Response.png) 
+
 ---
 ### Test Case TQ010: Cooking with Dark Chocolate
 **Test Scenario**: Retrieve recipes that use dark chocolate.  
@@ -105,6 +121,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Expected Result**: A list of dessert recipes with dark chocolate and links (e.g., “Chocolate Lava Cake” with the link). 
 - **Actual Result**: The chatbot returned both recommendations and links for cooking with dark chocolate
 - **Status**: Pass
+
+![Response for TQ010](https://github.com/trodman201/llm-chatbot/blob/testing/TQ010_Response.png) 
 
 
 --- 
@@ -116,6 +134,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Actual Result**: The chatbot returned both recommendations and links for a Thanksgiving Dinner Menu
 - **Status**: Pass
 
+![Response for TQ011](https://github.com/trodman201/llm-chatbot/blob/testing/TQ011_Response.png) 
+
 ---
 ### Test Case TQ012: New Years Eve Party  
 **Test Scenario**: Retrieve ideas for a New Year's Eve party menu.  
@@ -124,6 +144,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Expected Result**: Recipe suggestions for a New Year’s Eve party with links (e.g., “Shrimp Cocktail” with the link).
 - **Actual Result**: The chatbot returned both recommendations and links for a New Year's Eve Party menu
 - **Status**: Pass
+
+![Response for TQ012](https://github.com/trodman201/llm-chatbot/blob/testing/TQ012_Response.png) 
 
 ---
 ### Test Case TQ013: Summer Barbecue 
@@ -134,6 +156,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Actual Result**: The chatbot returned both recommendations and links to summer barbecue ideas
 - **Status**: Pass
 
+![Response for TQ013](https://github.com/trodman201/llm-chatbot/blob/testing/TQ013_Response.png) 
+
 ---
 ### Test Case TQ014: Romantic Dinner Recipes 
 **Test Scenario**: Retrieve ideas for a romantic dinner.  
@@ -143,6 +167,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Actual Result**: The chatbot returned both recommendations and links to romantic dinner recipes
 - **Status**: Pass
 
+![Response for TQ014](https://github.com/trodman201/llm-chatbot/blob/testing/TQ014_Response.png) 
+
 --- 
 ### Test Case TQ015: Christmas Desserts
 **Test Scenario**: Retrieve ideas for Christmas desserts.  
@@ -150,7 +176,9 @@ This document contains the results of 20 test questions executed on the chatbot.
   Ask: "Can you give me ideas for Christmas Desserts?"
 - **Expected Result**:  A list of Christmas dessert recipes with links (e.g., “Gingerbread Cookies” with the link).
 - **Actual Result**: The chatbot returned both recommendations and links to Christmas dessert ideas
-- **Status**: Pass 
+- **Status**: Pass
+
+![Response for TQ015](https://github.com/trodman201/llm-chatbot/blob/testing/TQ015_Response.png) 
 
 ---
 ### Test Case TQ016: Best Pasta Maker
@@ -160,7 +188,7 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Expected Result**:  A recommendation for the best pasta maker with explanations (e.g., “Marcato Atlas Pasta Maker” with details).
 - **Actual Result**: While it did provide some recommendations, the retrived links returned a 404 error/didnt work
 - **Status**: Fail 
-
+![Response for TQ016](https://github.com/trodman201/llm-chatbot/blob/testing/TQ016_Response.png)  
 ---
 ### Test Case TQ017: Good Chef's Knife
 **Test Scenario**: Retrieve recommendations for good chef's knife.  
@@ -169,7 +197,7 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Expected Result**:  A recommendation for a good chef's knife with details (e.g., “Wüsthof Classic Chef’s Knife” with explanations).
 - **Actual Result**: While it did provide some recommendations, the retrived links returned a 404 error/didnt work
 - **Status**: Fail 
-
+![Response for TQ017](https://github.com/trodman201/llm-chatbot/blob/testing/TQ017_Response.png) 
 ---
 ### Test Case TQ018: Blenders for Smoothies
 **Test Scenario**: Retrieve recommendations for blenders to use for smoothies.  
@@ -178,6 +206,7 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Expected Result**:  A list of recommended blenders for smoothies (e.g., “Vitamix 5200 Blender” with details).
 - **Actual Result**: While it did provide some recommendations, the retrived links returned a 404 error/didnt work
 - **Status**: Fail
+![Response for TQ018](https://github.com/trodman201/llm-chatbot/blob/testing/TQ018_Response.png)
 
 ---
 ### Test Case TQ019: Kitchen Tools for Home Baker
@@ -186,7 +215,8 @@ This document contains the results of 20 test questions executed on the chatbot.
   Ask: "What kitchen tools are essential for a home baker?"
 - **Expected Result**:  A list of essential kitchen tools for home bakers (e.g., “KitchenAid Stand Mixer” with details).
 - **Actual Result**: While it did provide some recommendations, the retrived links returned a 404 error/didnt work
-- **Status**: Fail 
+- **Status**: Fail
+![Response for TQ019](https://github.com/trodman201/llm-chatbot/blob/testing/TQ019_Response.png) 
 
 ---
 ### Test Case TQ020: Cookware for Stews
@@ -195,7 +225,9 @@ This document contains the results of 20 test questions executed on the chatbot.
   Ask: "Whats the best cookware for making stews?"
 - **Expected Result**:  A list of recommended cookware for stews (e.g., “Le Creuset Dutch Oven” with explanations). 
 - **Actual Result**: While it did provide some recommendations, the retrived links returned a 404 error/didnt work 
-- **Status**: Fail 
+- **Status**: Fail
+
+![Response for TQ020](https://github.com/trodman201/llm-chatbot/blob/testing/TQ020_Response.png) 
 
 ---
 ## Summary
