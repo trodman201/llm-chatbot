@@ -24,8 +24,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Test Steps**:
   Ask: "Can you give me a simple pasta recipe for beginners?"
 - **Expected Result**: A pasta recipe suitable for beginners with a link (e.g., “Pasta with Tomato Sauce” with the link).
-- **Actual Result**: 
-- **Status**: 
+- **Actual Result**: Chatbot returned links to pasta recipes for beginners
+- **Status**: Pass
 
 ---
 
@@ -35,8 +35,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Test Steps**:
   Ask: "I need a recipe for homemade pizza dough."
 - **Expected Result**: A recipe for pizza dough with the link (e.g., “Homemade Pizza Dough Recipe” with the link).
-- **Actual Result**: 
-- **Status**:
+- **Actual Result**: Chatbot returned recommendations and links to making homemade pizza dough
+- **Status**: Pass
 
 ---
 
@@ -46,8 +46,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Test Steps**:
   Ask: "What are some quick recipes for weeknight dinners?"
 - **Expected Result**: A list of quick weeknight dinner recipes with links (e.g., “15-Minute Stir Fry” with the link).
-- **Actual Result**: 
-- **Status**: 
+- **Actual Result**: Chatbot returned recommendations and links to cooking quick weeknight dinners
+- **Status**: Pass
 
 ---
 
@@ -57,8 +57,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Test Steps**:
   Ask: "Can you give me a recipe for chicken curry with rice?"
 - **Expected Result**: A recipe for chicken curry with rice and the link (e.g., “Easy Chicken Curry” with the link).
-- **Actual Result**:
-- **Status**:
+- **Actual Result**: Chatbot retunred recommendations and links to cooking chicken curry with rice
+- **Status**: Pass
 
 --- 
 ### Test Case TQ006: Cooking with Chicken Thighs
@@ -67,8 +67,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Test Steps**:
   Ask: "What can I make with chicken thighs?"
 - **Expected Result**: A list of recipes using chicken thighs with links (e.g., “Braised Chicken Thighs” with the link).
-- **Actual Result**:
-- **Status**: 
+- **Actual Result**: Chatbot returned recommendations and links to cooking with chicken thighs
+- **Status**: Pass
 
 ---
 ### Test Case TQ007: Cooking with Tomatoes and Basil
@@ -76,8 +76,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Test Steps**:
   Ask: "What are some recipies that use tomatoes and basil?"
 - **Expected Result**: A list of recipes that use tomatoes and basil with links (e.g., “Tomato Basil Salad” with the link).
-- **Actual Result**:
-- **Status**:
+- **Actual Result**: The chatbot returned both recommendations and links to cooking with tomatoes/basil
+- **Status**: Pass
 
 ---
 ### Test Case TQ008: Cooking with Mushrooms
@@ -85,8 +85,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Test Steps**:
   Ask: "Can you show me recipes with mushrooms as the main ingredient?"
 - **Expected Result**: A list of mushroom-based recipes with links (e.g., “Mushroom Risotto” with the link).
-- **Actual Result**:
-- **Status**:
+- **Actual Result**: The chatbot returned both recommendations and links to cooking with mushrooms
+- **Status**: Pass
 
 ---
 ### Test Case TQ009: Cooking with Sweet Potatoes
@@ -94,8 +94,8 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Test Steps**:
   Ask: "What dishes can I make with sweet potatoes?"
 - **Expected Result**:  A list of recipes using sweet potatoes with links (e.g., “Sweet Potato Fries” with the link).
-- **Actual Result**:
-- **Status**:
+- **Actual Result**: The chatbot returned both recommendations and links for cooking with sweet potatoes
+- **Status**: Pass
 
 ---
 ### Test Case TQ010: Cooking with Dark Chocolate
@@ -103,12 +103,101 @@ This document contains the results of 20 test questions executed on the chatbot.
 - **Test Steps**:
   Ask: "Can you give me some dessert ideas with dark chocolate?"
 - **Expected Result**: A list of dessert recipes with dark chocolate and links (e.g., “Chocolate Lava Cake” with the link). 
-- **Actual Result**:
-- **Status**:
+- **Actual Result**: The chatbot returned both recommendations and links for cooking with dark chocolate
+- **Status**: Pass
 
+
+--- 
+### Test Case TQ011: Thanksgiving Dinner Menu 
+**Test Scenario**: Retrieve ideas for a Thanksgiving dinner.  
+- **Test Steps**:
+  Ask: "Can you suggest a Thanksgiving dinner menu?"
+- **Expected Result**: A suggested menu for Thanksgiving with recipe links (e.g., “Roast Turkey” with the link).
+- **Actual Result**: The chatbot returned both recommendations and links for a Thanksgiving Dinner Menu
+- **Status**: Pass
 
 ---
+### Test Case TQ012: New Years Eve Party  
+**Test Scenario**: Retrieve ideas for a New Year's Eve party menu.  
+- **Test Steps**:
+  Ask: "What should I make for a New Year's Eve party?"
+- **Expected Result**: Recipe suggestions for a New Year’s Eve party with links (e.g., “Shrimp Cocktail” with the link).
+- **Actual Result**: The chatbot returned both recommendations and links for a New Year's Eve Party menu
+- **Status**: Pass
 
+---
+### Test Case TQ013: Summer Barbecue 
+**Test Scenario**: Retrieve ideas for a summer barbecue.  
+- **Test Steps**:
+  Ask: "I need some ideas for a summer barbecue"
+- **Expected Result**:  A list of barbecue recipes with links (e.g., “BBQ Ribs” with the link).
+- **Actual Result**: The chatbot returned both recommendations and links to summer barbecue ideas
+- **Status**: Pass
+
+---
+### Test Case TQ014: Romantic Dinner Recipes 
+**Test Scenario**: Retrieve ideas for a romantic dinner.  
+- **Test Steps**:
+  Ask: "What are some romantic dinner ideas for two?"
+- **Expected Result**:  A list of romantic dinner recipes with links (e.g., “Lobster Tail” with the link).
+- **Actual Result**: The chatbot returned both recommendations and links to romantic dinner recipes
+- **Status**: Pass
+
+--- 
+### Test Case TQ015: Christmas Desserts
+**Test Scenario**: Retrieve ideas for Christmas desserts.  
+- **Test Steps**:
+  Ask: "Can you give me ideas for Christmas Desserts?"
+- **Expected Result**:  A list of Christmas dessert recipes with links (e.g., “Gingerbread Cookies” with the link).
+- **Actual Result**: The chatbot returned both recommendations and links to Christmas dessert ideas
+- **Status**: Pass 
+
+---
+### Test Case TQ016: Best Pasta Maker
+**Test Scenario**: Retrieve reccommendations for best pasta maker to use.  
+- **Test Steps**:
+  Ask: "What is the best pasta maker to use at home?"
+- **Expected Result**:  A recommendation for the best pasta maker with explanations (e.g., “Marcato Atlas Pasta Maker” with details).
+- **Actual Result**: While it did provide some recommendations, the retrived links returned a 404 error/didnt work
+- **Status**: Fail 
+
+---
+### Test Case TQ017: Good Chef's Knife
+**Test Scenario**: Retrieve recommendations for good chef's knife.  
+- **Test Steps**:
+  Ask: "Do you have reccomendations for a good chef's knife?"
+- **Expected Result**:  A recommendation for a good chef's knife with details (e.g., “Wüsthof Classic Chef’s Knife” with explanations).
+- **Actual Result**: While it did provide some recommendations, the retrived links returned a 404 error/didnt work
+- **Status**: Fail 
+
+---
+### Test Case TQ018: Blenders for Smoothies
+**Test Scenario**: Retrieve recommendations for blenders to use for smoothies.  
+- **Test Steps**:
+  Ask: "Which blenders are best for making smoothies?"
+- **Expected Result**:  A list of recommended blenders for smoothies (e.g., “Vitamix 5200 Blender” with details).
+- **Actual Result**: While it did provide some recommendations, the retrived links returned a 404 error/didnt work
+- **Status**: Fail
+
+---
+### Test Case TQ019: Kitchen Tools for Home Baker
+**Test Scenario**: Retrieve reccomendations for kitchen tools that home bakers use.  
+- **Test Steps**:
+  Ask: "What kitchen tools are essential for a home baker?"
+- **Expected Result**:  A list of essential kitchen tools for home bakers (e.g., “KitchenAid Stand Mixer” with details).
+- **Actual Result**: While it did provide some recommendations, the retrived links returned a 404 error/didnt work
+- **Status**: Fail 
+
+---
+### Test Case TQ020: Cookware for Stews
+**Test Scenario**: Retrieve reccomendations for cookware for stews.  
+- **Test Steps**:
+  Ask: "Whats the best cookware for making stews?"
+- **Expected Result**:  A list of recommended cookware for stews (e.g., “Le Creuset Dutch Oven” with explanations). 
+- **Actual Result**: While it did provide some recommendations, the retrived links returned a 404 error/didnt work 
+- **Status**: Fail 
+
+---
 ## Summary
 | Test Case ID | Question                                   | Status |
 |--------------|-------------------------------------------|--------|
