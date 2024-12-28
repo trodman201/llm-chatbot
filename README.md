@@ -122,6 +122,16 @@ This document contains the results of 20 test questions executed on the chatbot.
 | TQ008        | Cooking with Mushrooms                   | Pass  |   
 | TQ009        | Cooking with Sweet Potatoes              | Pass   | 
 | TQ010        | Cooking with Dark Chocolate              | Pass   | 
+| TQ011        | Thanksgiving dinner menu                 | Pass   |
+| TQ012        | New Years Eve Party                      | Pass   | 
+| TQ013        | Summer barbecue                          | Pass   | 
+| TQ014        | Romantic Dinner Recipes                  | Pass   |
+| TQ015        | Christmas Desserts                       | Pass   | 
+| TQ016        | Best Pasta maker                         | Fail   |
+| TQ017        | Good Chef's Knife                        | Fail   |
+| TQ018        | Blenders for Smoothies                   | Fail   |
+| TQ019        | Kitchen Tools for home baker             | Fail   |
+| TQ020        | Cookware for Stews                       | Fail   | 
 
 ## Notes
 
