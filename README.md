@@ -58,7 +58,77 @@ This document contains the results of 20 test questions executed on the chatbot.
   Ask: "Can you give me a recipe for chicken curry with rice?"
 - **Expected Result**: A recipe for chicken curry with rice and the link (e.g., “Easy Chicken Curry” with the link).
 - **Actual Result**:
+- **Status**:
+
+--- 
+### Test Case TQ006: Cooking with Chicken Thighs
+**Test Scenario**: Retrieve ideas for using chicken thighs as an ingredient. 
+
+- **Test Steps**:
+  Ask: "What can I make with chicken thighs?"
+- **Expected Result**: A list of recipes using chicken thighs with links (e.g., “Braised Chicken Thighs” with the link).
+- **Actual Result**:
 - **Status**: 
 
+---
+### Test Case TQ007: Cooking with Tomatoes and Basil
+**Test Scenario**: Retrieve recipes that use tomatoes and basil. 
+- **Test Steps**:
+  Ask: "What are some recipies that use tomatoes and basil?"
+- **Expected Result**: A list of recipes that use tomatoes and basil with links (e.g., “Tomato Basil Salad” with the link).
+- **Actual Result**:
+- **Status**:
+
+---
+### Test Case TQ008: Cooking with Mushrooms
+**Test Scenario**: Retrieve recipes that use mushrooms. 
+- **Test Steps**:
+  Ask: "Can you show me recipes with mushrooms as the main ingredient?"
+- **Expected Result**: A list of mushroom-based recipes with links (e.g., “Mushroom Risotto” with the link).
+- **Actual Result**:
+- **Status**:
+
+---
+### Test Case TQ009: Cooking with Sweet Potatoes
+**Test Scenario**: Retrieve recipes that use sweet potatoes. 
+- **Test Steps**:
+  Ask: "What dishes can I make with sweet potatoes?"
+- **Expected Result**:  A list of recipes using sweet potatoes with links (e.g., “Sweet Potato Fries” with the link).
+- **Actual Result**:
+- **Status**:
+
+---
+### Test Case TQ010: Cooking with Dark Chocolate
+**Test Scenario**: Retrieve recipes that use dark chocolate.  
+- **Test Steps**:
+  Ask: "Can you give me some dessert ideas with dark chocolate?"
+- **Expected Result**: A list of dessert recipes with dark chocolate and links (e.g., “Chocolate Lava Cake” with the link). 
+- **Actual Result**:
+- **Status**:
+
+
+---
+
+## Summary
+| Test Case ID | Question                                   | Status |
+|--------------|-------------------------------------------|--------|
+| TQ001        | Vegetarian Lasagna Recipes               |    |
+| TQ002        | Simple Pasta Recipe for Beginners        |   |
+| TQ003        | Homemade Pizza Dough                     |   |
+| TQ004        | Quick Weeknight Dinners                  |   |
+| TQ005        | Chicken Curry with Rice                  |    | 
+| TQ006        | Cooking with Chicken Thighs              |    | 
+| TQ007        | Cooking with Tomatoes and Basil          |    |
+| TQ008        | Cooking with Mushrooms                   |    |   
+| TQ009        | Cooking with Sweet Potatoes              |    | 
+| TQ010        | Cooking with Dark Chocolate              |    | 
+
+## Notes
+
+
+## Limitations
+
+
+---
 
 
