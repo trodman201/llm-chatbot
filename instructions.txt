@@ -1,0 +1,12 @@
+Prerequisites: 
+ 1. Make sure that Python 3.7 or above is installed on your system (Preferably 3.11). 
+ 2. Pip should also be up to date to manage python packages for llmchatbot.py:
+       python -m pip install --upgrade pip
+
+Running the code: 
+ 1. Replace line 10 with your own groq api key. The api key can be generated here: https://console.groq.com/keys 
+ 2. Install the required Python libraries by running the following command in your terminal or command prompt: 
+      pip install streamlit beautifulsoup4 requests groq 
+ 3. You can either run the chatbot within the terminal or in Powershell using the command:
+      streamlit run llmchatbot.py 
+ 4. Open the URL displayed in your terminal or PowerShell (e.g., http://localhost:8501) in your browser to interact with chatbot
