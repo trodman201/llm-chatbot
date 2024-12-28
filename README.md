@@ -13,8 +13,8 @@ This document contains the results of 20 test questions executed on the chatbot.
   1. Launch the chatbot locally using `streamlit run chatbot.py`.
   2. Ask: "What are some vegetarian lasagna recipes?"
 - **Expected Result**: A list of vegetarian lasagna recipes with links (e.g., “Vegetarian Lasagna With Easy Roasted Tomato Sauce” with the link).
-- **Actual Result**: 
-- **Status**: 
+- **Actual Result**: It did provide links to vegetarian lasagna recipes, but it thought the prompt was asking for smores recipes. 
+- **Status**: Fail
 
 ---
 
@@ -112,16 +112,16 @@ This document contains the results of 20 test questions executed on the chatbot.
 ## Summary
 | Test Case ID | Question                                   | Status |
 |--------------|-------------------------------------------|--------|
-| TQ001        | Vegetarian Lasagna Recipes               |    |
-| TQ002        | Simple Pasta Recipe for Beginners        |   |
-| TQ003        | Homemade Pizza Dough                     |   |
-| TQ004        | Quick Weeknight Dinners                  |   |
-| TQ005        | Chicken Curry with Rice                  |    | 
-| TQ006        | Cooking with Chicken Thighs              |    | 
-| TQ007        | Cooking with Tomatoes and Basil          |    |
-| TQ008        | Cooking with Mushrooms                   |    |   
-| TQ009        | Cooking with Sweet Potatoes              |    | 
-| TQ010        | Cooking with Dark Chocolate              |    | 
+| TQ001        | Vegetarian Lasagna Recipes               | Fail |
+| TQ002        | Simple Pasta Recipe for Beginners        | Pass  |
+| TQ003        | Homemade Pizza Dough                     | Pass  |
+| TQ004        | Quick Weeknight Dinners                  | Pass  |
+| TQ005        | Chicken Curry with Rice                  | Pass   | 
+| TQ006        | Cooking with Chicken Thighs              | Pass   | 
+| TQ007        | Cooking with Tomatoes and Basil          | Pass   |
+| TQ008        | Cooking with Mushrooms                   | Pass  |   
+| TQ009        | Cooking with Sweet Potatoes              | Pass   | 
+| TQ010        | Cooking with Dark Chocolate              | Pass   | 
 
 ## Notes
 
