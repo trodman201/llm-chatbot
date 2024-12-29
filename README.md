@@ -254,10 +254,32 @@ This document contains the results of 20 test questions executed on the chatbot.
 | TQ019        | Kitchen Tools for home baker             | Fail   |
 | TQ020        | Cookware for Stews                       | Fail   | 
 
-## Notes
+## Notes 
+- The chatbot performs well in providing recipe recommendations (e.g., TQ002–TQ015) with accurate links and relevant content. However, minor errors in understanding certain prompts, such as TQ001, highlight areas for improvement in parsing and intent recognition.
+  
+- Product recommendation queries (e.g., TQ016–TQ020) often resulted in broken or invalid links. This indicates a potential issue with the data source or link retrieval process.
+  
+- While recipe queries successfully generate accurate responses, product-related requests require troubleshooting to ensure reliable and functional outputs.
 
+## Limitations 
+- The chatbot relies on the availability of Epicurious’s website. If the website’s structure changes, the scraper may need updates to maintain functionality.
 
-## Limitations
+- Internet connection is required for fetching recipes and providing accurate recommendations.
+
+- Attempts to integrate the OpenAI API encountered limitations, including potential restrictions on response length, accuracy in niche domains, and higher latency for complex queries. Hence the switch to the opensource api Groq which does not restrict requests or response length 
+
+- The chatbot's handling of ambiguous user inputs needs improvement. For example, it may misinterpret certain queries or provide irrelevant suggestions (e.g., TQ001).
+
+- Product recommendation links (TQ016–TQ020) are prone to failure due to broken or outdated URLs, reducing the reliability of these responses.
+
+## Next Steps 
+- Investigate and resolve the issue with broken links in product recommendation queries by either:
+
+  - Validating the current data retrieval method.
+    - Integrating a reliable external API or database for product information.
+
+- Enhance the chatbot’s ability to clarify ambiguous user inputs to prevent misinterpretation (e.g., clarifying queries like TQ001).
+- Add fallback mechanism for invalid links, informing users to search for the item directly if the provided link is not functional.
 
 
 ---
